@@ -95,4 +95,108 @@ nav ul li{
     margin: 0;
 }
 
+.container2{
+    height: 306px;
+    text-align: center;
+
+}
+
+.designer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-top: 75px;
+}
+
+.California{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    color: #5F4D5D;
+    margin: 0;
+}
+
+.learn_more{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    height: 45px;
+    width: 141px;
+    background-color: white;
+    margin-top: 17px;
+    margin-bottom: 50px;
+}
+
+.girl{
+    margin-right: 37px;
+    margin-bottom: 0;
+}
+
+.podu{
+    margin-right: 37px;
+}
+
+.content_4{
+    display: flex;
+    position: relative;
+    }
+.first, .second, .third{
+    width: 368px;
+    height: 113px;
+    background: #CEB3CB;
+}
+
+.first{
+    position: absolute;
+    top: 240px;
+    left: 127px;
+}
+
+.second{
+    position: absolute;
+    top: 240px;
+    left: 536px;
+}
+
+.third{
+    position: absolute;
+    top: 240px;
+    left: 945px;
+}
+
+.me{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 23px 0 6px 23px;
+}
+
+.more{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 23px;
+}
 
