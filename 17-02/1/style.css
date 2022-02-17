@@ -1,0 +1,29 @@
+body{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.mariela{
+    margin-left: 113px;
+}
+
+nav ul{
+    margin-left: 531px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+}
+.korzina{
+    margin-left: 5px;
+
+}
