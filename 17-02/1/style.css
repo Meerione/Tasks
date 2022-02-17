@@ -200,3 +200,151 @@ nav ul li{
     padding-left: 23px;
 }
 
+.container3{
+    display: flex;
+    margin-top: 415px;
+    margin-left: 114px;
+}
+
+.content_5{
+    width: 607px;
+    height: 457px;
+    padding-left: 41px;
+    padding-top: 110px;
+}
+
+.begin{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.credibly, .dramatically{
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+
+}
+
+.credibly{
+    margin: 0;
+    padding-bottom: 10px;
+}
+.dramatically{
+    margin: 0;
+}
+
+.content_6{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: -39px;
+}
+
+.hr_first{
+    background: #D7B7D4;
+    width: 1215px;
+}
+
+.container4{
+    display: flex;
+}
+
+.content_7{
+    margin: 39px 93px 40px 112px;
+}
+
+.content_8{
+    padding-top: 139px;
+
+}
+
+.carrer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.collab, .object, .and{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.and{
+    padding-bottom: 20px;
+}
+
+.learn_more2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    height: 45px;
+    width: 141px;
+    background-color: white;
+}
+
+.big{
+    background: #D7B7D4;
+    width: 1215px;
+}
+.container5{
+    display: flex;
+}
+
+.content_9{
+    padding-left: 173px;
+}
+
+.products{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-top: 122px;
+}
+.seamlessly, .innovate, .energistically{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+
+}
+.content_10{
+    margin: 39px 111px 91px 81px;
+}
+
