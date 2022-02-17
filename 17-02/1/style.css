@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     margin: 0 auto;
     width: 1440px;
@@ -22,8 +25,74 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin-right: 40px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B08EAD;
+
 }
 .korzina{
     margin-left: 5px;
+}
+
+.content_1{
+    height: 458px;
+    background: #C9ADC6;
+}
+
+.content_2{
+    height: 359px;
+    background: #D6BBD3;
+}
+
+.poduwka{
+  position: absolute;
+    top: 194px;
+    left: 227px;
+}
+
+.rectangle{
+   position: absolute;
+    top: 303px;
+    left: 950px;
+}
+
+.spring{
+    position: absolute;
+    left: 990px;
+    top: 367px;
+}
+.new, .buy{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    margin-top: 0;
 
 }
+
+.buy{
+    margin-top: 22px;
+    border: none ;
+    background: #B08EAD;
+    border-bottom: solid ;
+}
+
+.cushion, .collection{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
