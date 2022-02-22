@@ -57,7 +57,7 @@ if (time >= 46 && time <= 59) {
 
  //1 - вариант
 let test2 = false;
-let access = test2 !== true ? true : false;
+let access = test2 !== true ? 'Верно': 'Неверно';
 console.log(access);
 
 //2 - вариант
