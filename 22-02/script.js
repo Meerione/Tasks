@@ -65,7 +65,7 @@ let test = false;
 if (test !== true) {
     console.log('Верно');
 } else {
-    console.log('Неверно');
+    console.log('Неверно');/**/
 }
 
 
