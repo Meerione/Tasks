@@ -54,39 +54,18 @@ console.log(result8); //false
 
 let num = 1;
 num +=  12;
+num -= 14
+num *= 5
+num /= 7
+num++;
+num --;
+
 alert(num);
 
-let num1 = 1;
-num1 -= 14;
-alert(num1);
 
-let num2 = 1;
-num2 *= 5;
+
+var num2 = 10;
+num2++;
+++num2;
+num2--;
 alert(num2);
-
-let num3 = 1;
-num3 /= 7;
-alert(num3);
-
-let num4 = 1;
-num4 ++ ;
-alert(num4);
-
-let num5 = 1;
-num5 -- ;
-alert(num5);
-
-
-
-
-var num6 = 10;
-num6++;
-alert(num6);
-
-var num7 = 10;
-++num7;
-alert(num7);
-
-var num8 = 10;
-num8--;
-alert(num8);
