@@ -6,7 +6,7 @@
 let x = 7;
 if(x === 7){
     alert('Верно');
-} else if(x === 7){
+} else {
     alert("Неверно");
 }
 
