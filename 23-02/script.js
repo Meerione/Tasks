@@ -7,13 +7,13 @@
 
 //ex:1
 
-/*let userSalaries ={
+let userSalaries ={
     Ella:25000,
     Sophia:30000,
     Ellie:35000
 };
 
-alert(userSalaries.Ella+" "+userSalaries.Sophia);*/
+alert(userSalaries.Ella+" "+userSalaries.Sophia);
 
 /*2) Создайте объект с ключами a, b и c значениями 5 , 6 и 10.
 Найдите сумму его элементов.
@@ -21,13 +21,13 @@ alert(userSalaries.Ella+" "+userSalaries.Sophia);*/
 
 //ex:2
 
-/*let int = {
+let int = {
     a:5,
     b:6,
     c:10
 };
 
-console.log(int.a + int.b + int.c);*/
+console.log(int.a + int.b + int.c);
 
 /* let number;
 if(data === true){
@@ -40,8 +40,8 @@ if(data === true){
 
 //ex:3
 
-let number;
-let data;
+
+let data = true;
 number = data === true ? '3' : '5';
 console.log(number);
 
