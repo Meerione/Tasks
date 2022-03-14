@@ -5,43 +5,49 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>SecondPageOfRegistration</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-<div class="container2">
-    <h1>Данные о ваших доходах</h1>
-    <div class="block1">
-        <input class="home home1" type="text" value="Наименование организации">
-        <input class="home home2" type="text" value="Должность">
-        <input class="home home3" type="text" value="Заработная плата в  месяц">
-        <input class="home home4" type="text" value="Заработная Плата  за посл.  3 месяца">
-    </div>
-    <p class="text2">Сведения о кредите</p>
-    <div class="box2">
-        <input class="job job1" type="text" value="Покупка телефона ( наименование товара)">
-        <div class="box3">
-            <input class="job job2" type="text" value="Стоимость товара">
-            <input class="job job3" type="text" value="Количество товара">
-            <input class="job job4" type="text" value="Итого сумма кредита">
-            <select class="job" id="job5" >
-                <option value="none" hidden>Вид кредита </option>
-                <option value="Рассрочка">Рассрочка</option>
-                <option value="Кредит">Кредит</option>
+<div class="verify2"></div>
+<div class="content">
+    <div class="container">
+        <h3 class="data">Данные о ваших доходах</h3>
+        <form>
+            <input class="organization first main" type="text" id="organization" placeholder="Наименование организации">
+            <input class="information main" type="text" id="position" placeholder="Должность">
+            <input class="salary first main" type="text" id="main-salary" placeholder="Заработная плата в месяц">
+            <input class="salary main" type="text" id="last-salary" placeholder="Заработная Плата за посл. 3 месяца">
+            <h4 class="credit first">Сведения о кредите</h4>
+            <input class="buy-phone first main" type="text" id="phone" placeholder="Покупка телефона ( наименование товара)">
+            <input class="information main first" type="text" id="price" placeholder="Стоимость товара">
+            <input class="information main" type="text" id="quantity" placeholder="Количество товара">
+            <input class="information main" type="text" id="total-credit" placeholder="Итого сумма кредита">
+            <select class="main ok first" name="credit-type" id="credit-type">
+                <option disabled selected  hidden value="0">Вид кредита</option>
+                <option value="1">Рассрочка</option>
+                <option value="2">Кредит</option>
             </select>
-            <select class="job" id="job6" >
-                <option value="none" hidden>Срок кредита ( мес)</option>
-                <option value="3 месяца">3 месяца</option>
-                <option value="6 месяцев">6 месяцев</option>
-                <option value="9 месяцев">9 месяцев</option>
-                <option value="12 месяцев">12 месяцев</option>
+            <select class="main ok" name="credit-term" id="credit-time">
+                <option disabled selected  hidden value="0">Срок кредита ( мес)</option>
+                <option value="1">3 месяца</option>
+                <option value="2">6 месяцев</option>
+                <option value="3">9 месяцев</option>
+                <option value="4">12 месяцев</option>
             </select>
-        </div>
-        <input class="job job7" type="text" value="Итого сумма кредита">
+            <select class="buy-phone main first" name="place" id="receive">
+                <option disabled selected  hidden value="0">Точка получения товара</option>
+                <option value="1">ТЦ "Азия Молл" пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0</option>
+                <option value="2">ТЦ ГУМ "Чынар" пр.Чуй 92, ТРК ГУМ «Чынар», этаж -1 , бутик M9 (северная сторона)</option>
+                <option value="3">ТЦ «Beta Stores - 2» ул. Юнусалиева 177/2,торговый центр «Beta Stores - 2»</option>
+                <option value="4">ТЦ Vefa Center ул. Горького 27/1,"Vefa Center",1 этаж. Бутик № 20</option>
+                <option value="5">ТЦ «Беш-Сары Сити» Бейшеналиева 42А, ТЦ Беш Сары-Сити</option>
+                <option value="6">ТРЦ «Аламедин Гранд» пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж, Бутик №1 (вход с ул. Алма-Атинская)</option>
+            </select>
+            <button id="knopka2">Оформить заявку</button>
+        </form>
     </div>
-    <button><a class="saite2"  href="#">Оформить заявку</a></button>
 </div>
-
 <script src="script2.js"></script>
 </body>
 </html>

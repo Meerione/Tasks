@@ -9,59 +9,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <h1>Анкета для корпоративных клиентов</h1>
-    <p class="personal">Личные данные</p>
-    <div class="block1">
-        <label>
-            <input class="family" type="text" value="Фамилия">
-        </label>
-        <label>
-            <input class="name" type="text" value="Имя">
-        </label>
-        <label>
-            <input class="surname" type="text" value="Отчество">
-        </label>
+<div class="verify"></div>
+<div class="content">
+    <div class="container">
+        <h1 class="corporate-clients">Анкета для корпоративных клиентов</h1>
+        <div>
+        </div>
+        <p class="personal-information">Личные данные</p>
+        <form>
+            <input class="data last-name" id="surname" type="text" placeholder="Фамилия">
+            <input class="data name" id="name" type="text" placeholder="Имя">
+            <input class="data surname" id="lastname" type="text" placeholder="Отчество">
+        </form>
+        <p class="passport">Паспортные данные</p>
+        <form>
+            <input class="date-birth" id="birth" type="date">
+            <input class="address" id="address" type="text" placeholder="Место проживания по прописке">
+            <input class="basic contact-number" id="number" type="text" placeholder="Серийный номер AN/ID">
+            <input class="basic" id="inn" type="text" placeholder="ИНН">
+            <input class="basic" id="date" type="date">
+            <input class="basic contact-number" id="contact-number" type="number" placeholder="Контактный номер">
+            <input class="basic" id="e-mail" type="text" placeholder="Электронный адрес">
+            <select class="basic" name="bank" id="bank-name">
+                <option value="0">Наименование банка</option>
+                <option value="optima">Optima Bank</option>
+                <option value="bakai">Bakai Bank</option>
+                <option value="kicb">KICB</option>
+                <option value="dcb">Dos Credo Bank</option>
+            </select>
+            <input class="fact-address mesto " id="fact-address" type="text" placeholder="Фактическое место проживания">
+        </form>
+        <button class="next1" id="next1">Далее</button>
     </div>
-
-    <p class="passport">Паспортные данные</p>
-    <div class="block2">
-        <label>
-            <input class="main first" type="date" value="Дата рождения">
-        </label>
-        <label>
-            <input class="main address" type="text" value="Место проживания по прописке">
-        </label>
-        <label>
-            <input class="main second" type="text" value="Серийный номер AN/ID">
-        </label>
-        <label>
-            <input class="main third" type="text" value="ИНН">
-        </label>
-        <label>
-            <input class="main fourth" type="date" value="Дата получения">
-        </label>
-        <label>
-            <input class="main fifth" type="text" value="Контактный номер">
-        </label>
-        <label>
-            <input class="main six" type="email" value="Электронный адрес">
-        </label>
-        <select name="" id="seven" class="main">
-            <option value="">Наименование банка</option>
-        </select>
-        <label>
-            <input class="main address" type="text" value="Фактическое место проживания">
-        </label>
-    </div>
-    
-    <button class="knopka1">
-        <a class="link1" href="form2.html">Далее</a>
-    </button>
-    
 </div>
-
-
 <script src="script1.js"></script>
 </body>
 </html>

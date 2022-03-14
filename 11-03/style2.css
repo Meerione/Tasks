@@ -1,120 +1,94 @@
 body{
     background-color: black;
-    width: 1440px;
-    height: 1024px;
 }
-.container2{
+
+.verify2{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    top: -45px;
+    color: #084298;
+    background-color: #cfe2ff;
+    display: none;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 700px;
+    height: 650px;
     background-color: white;
     border-radius: 8px;
-    border: 0 solid white;
-    width: 664px;
-    height: 576px;
-    justify-content: center;
-    margin-top: 246px;
-    margin-left: 388px;
-    padding: 40px 24px 0 24px;
 }
-h1{
-    border-radius: 0;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: left;
-    margin-left: -4px;
-    margin-top: 0;
-    margin-bottom: 24px;
+.data{
+    font-size: 18px;
+    margin-left: 24px;
+    margin-top: 40px;
+    font-family: sans-serif;
+
 }
-.block1{
-    display: flex;
-    /*flex-direction: row;*/
-    flex-wrap: wrap;
-    gap: 8px;
-}
-.home{
-    height: 48px;
-    border: 2px solid lightgray;
-    border-radius: 8px;
-    font-size: 14px;
-    opacity: 0.5;
-    padding-left: 16px;
-}
-.home1{
+.organization{
     width: 408px;
 }
-.home2{
-    width: 200px;
-}
-
-.home4  {
-    width: 304px;
-}
-.home3{
-    width: 304px;
-}
-.box2{
-    display: flex;
-    flex-direction: column;
-}
-.job{
-
-    border: 2px solid lightgray;
-    border-radius: 8px;
-    font-size: 14px;
+.main{
+    height: 48px;
     opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    border-radius: 8px;
     padding-left: 16px;
+    margin-top: 16px;
+}
+.first{
+    margin-left: 24px;
 }
 
-.job1{
-    width: 641px;
-    height: 48px;
-}
-.job2{
-    width: 189px;
-    height: 48px;
-}
-.job3{
-    width: 189px;
-    height: 48px;
-}
-.job4{
-    width: 189px;
-    height: 48px;
-}
-#job5{
-    width: 212px;
-    height: 48px;
-}
-.job6{
+.information{
     width: 200px;
-    height: 48px;
 }
-.job7{
-    width: 641px;
-    height: 48px;
+
+
+.salary{
+    width: 304px;
+    margin-top: 16px;
 }
+
+.credit{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin: 15px 0 0 24px;
+}
+.buy-phone{
+    width: 640px;
+
+}
+
 button{
-    width: 384px;
+    width: 348px;
     height: 48px;
-    background-color: rgba(35, 37, 41, 1);
-    color: rgba(255, 255, 255, 1);
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    margin: 40px 140px 40px 140px;
-    border: 0;
-}
-.saite2{
-    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 160px;
+    background-color: black;
     color: white;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.ok{
+    width: 220px;
+    height: 52px !important;
 }
 
-button{
-    border-radius: 4px;
-}
 
-.box3{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 12px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+.d-block{
+    display: block!important;
 }
